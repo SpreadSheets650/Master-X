@@ -1,0 +1,61 @@
+{
+  "name": "Master X | Music Bot",
+  "description": "Powerful Music BOT",
+  "repository": "https://github.com/SpreadSheets650",
+  "logo": "https://media.discordapp.net/attachments/1001783398144151673/1040659347656683590/wallpaperflare.com_wallpaper.jpg?width=833&height=468",
+  "keywords": ["discord", "discordjs", "music"],
+  "env": {    
+    "MONGO_URI": {
+     "description": "Your Mongo url",
+     "value": "mongodb+srv://c4clan3:c4clan3@c4clan3.ufkpd.mongodb.net/?retryWrites=true&w=majority",
+     "required": true
+    },
+    "NODE_HOST":{
+      "description":"lavalink host",
+      "value": "disbotlistlavalink.ml",
+      "required": true
+    },
+    "NODE_ID":{
+      "description":"lavalink ID",
+      "value": "main",
+      "required": true
+    },
+    "NODE_PORT":{
+      "description":"lavalink port",
+      "value": "443",
+      "required": true
+    },
+    "NODE_PASSWORD":{
+      "description":"lavalink password",
+      "value": "LAVA",
+      "required": true
+    },
+    "NODE_SECURE":{
+      "description":"lavalink secure (true/false)",
+      "value": "true",
+      "required": true
+    },
+    "PREFIX":{
+      "description": "mx!",
+      "value": "!",
+      "required": true
+     },
+    "COlOR":{
+      "description": "embed colour code hex",
+      "value": "#303236",
+      "required": false
+     },
+    "LOGS":{
+      "description": "1012768742444384347",
+      "required": true
+     },
+    "OWNERID":{
+      "description": "727012870683885578",
+      "required": false
+     },
+    "TOKEN": {
+      "description": "MTA0MDY1NTY5MDM5OTc2NDUzMA.GgQvcT.GRZNuFPky5TO0gRNFnqB9omwBXwqPuIDFhyrMw",
+      "required": true
+    }
+  }
+}
