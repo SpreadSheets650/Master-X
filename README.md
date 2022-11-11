@@ -1,49 +1,7 @@
-<center><img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Lavamusic&fontSize=80&fontAlignY=35&animation=twinkling&fontColor=gradient" /></center>
-<br>
-<h2 align="center">Our Music Bot</h2>
+
+<h2 align="center">My Music Bot</h2>
 <h4 align="center">High Quality Music Bot with a DJ System, Music Channel Setup, 24/7 in VC, Stage Channels, Slash Commands Support and more for FREE!</h4>
 <p align="center">
-<a href="https://top.gg/bot/977742811132743762">
-  <img src="https://top.gg/api/widget/977742811132743762.svg">
-</a>
-<br />
-<br />
-<br />
-
-[![Version][version-shield]](version-url)
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-
-[![Run on Repl.it](https://repl.it/badge/github/brblacky/lavamusic)](https://repl.it/github/brblacky/lavamusic)
-[![Remix on Glitch](https://cdn.glitch.com/2703baf2-b643-4da7-ab91-7ee2a2d00b5b%2Fremix-button.svg)](https://glitch.com/edit/#!/import/github/brblacky/lavamusic)
-
-<!-- PROJECT LOGO -->
-<br />
-<p align="center">
-  <a href="https://github.com/brblacky/lavamusic">
-    <img src="https://media.discordapp.net/attachments/876035356460462090/887728792926290091/20210820_124325.png" alt="Pbot-plus" width="200" height="200">
-  </a>
-
-  <h3 align="center">lavamusic</h3>
-
-  <p align="center">
-    Lavamusic is a powerful music Bot
-    <br />
-    <br />
-    <a href="https://moebot.xyz/invite/">Invite Moe</a>
-    ·
-    <a href="https://github.com/brblacky/lavamusic/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/brblacky/lavamusic/issues">Request Feature</a>
-  </p>
-</p>
-
-## 📝 Tutorial
-
-A Tutorial has been uploaded on YouTube, Watch it by clicking [here](https://youtu.be/x5lQD2rguz0)
 
 ## 🎭 Features
 
@@ -58,66 +16,6 @@ A Tutorial has been uploaded on YouTube, Watch it by clicking [here](https://you
 - ✅ Easy to use
 - ✅ And much more!
 
-## 🖼️ Screenshots
-
-<br />
-<p align="center">
-  <a href="https://github.com/brblacky/lavamusic">
-    <img src="https://media.discordapp.net/attachments/876035356460462090/912404827118641202/Screenshot_20211122-234019__01.jpg">
-    <img src="https://media.discordapp.net/attachments/876035356460462090/910856250084970518/Screenshot_20211118-170634__01.jpg">
-    <img src="https://media.discordapp.net/attachments/876035356460462090/910855739969527849/Screenshot_20211118-170456__01.jpg">
-    <img src="https://media.discordapp.net/attachments/876035356460462090/911442921738350622/Screenshot_20211120-075640__01.jpg">
-
-  </a>
-</p>
-
-## 📎 Requirements
-
-- [Nodejs](https://nodejs.org/en/) v16.17 or higher
-- [Discord.js](https://github.com/discordjs/discord.js/) v14
-- [Java](https://adoptopenjdk.net/) for lavalink
-- [Lavalink](https://ci.fredboat.com/repository/download/Lavalink_Build/.lastSuccessful/Lavalink.jar?guest=1&branch=refs/heads/dev)
-
-Note: Java v11 or newer is required to run the Lavalink.jar. Java v13 is recommended. If you are using sdkman then its a manager, not Java, you have to install sdkman and use sdkman to install Java
-
-Warning: Java v14 has issues with Lavalink.
-
-### 🌐 Main
-
-- Discord bot's
-  token `You should know why you need this or you won't go to this repo` [Get or create bot here](https://discord.com/developers/applications)
-- Mongodb
-  URI `for custom prefix` [MongoDB](https://account.mongodb.com/account/login)
-- Your ID `for eval command. It's dangerous if eval accessible to everyone`
-- Spotify client ID `for spotify support` [Click here to get](https://developer.spotify.com/dashboard/login)
-- Spotify client Secret `for spotify support` [Click here to get](https://developer.spotify.com/dashboard/login)
-
-## 🎶 Available music sources
-
-- ✅ YouTube
-- ✅ Bandcamp
-- ✅ SoundCloud
-- ✅ Twitch
-- ✅ Vimeo
-- ✅ http (you can use radio for it)
-- ✅ Spotify
-- ✅ Deezer
-
-<!-- INSTALL -->
-
-## 🚀 Installation using docker-compose
-
-This section assumes you have docker and docker-compose installed and is running correctly.
-
-Download the [Docker-Compose file](https://raw.githubusercontent.com/brblacky/lavamusic/main/docker-compose.yml) in a seperate folder like lavamusic.
-
-Edit the Docker-Compose file and make sure to edit the following variables:
-
-```yaml
-TOKEN: "put your bot token"
-PREFIX: "your bot prefix"
-OWNERID: "your discord id"
-```
 
 For more information how to fill all the varialabes go to this page.
 You do not need to edit anything like the PORT, ADDRESS, PASSWORD, HOST, SECURE and USERNAME. Unless you know what your doing.
